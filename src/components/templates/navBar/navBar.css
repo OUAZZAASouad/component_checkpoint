@@ -1,0 +1,27 @@
+.navbar{
+    background-color: #333333;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+    }
+
+a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 20px 20px;
+      }
+a:hover {
+    color : #52a4b9;
+      }
+a.active {
+/* background-color: #52a4b9; */
+/* color: white; */
+color : #52a4b9;
+border-bottom: 3px solid #52a4b9;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+} 
